@@ -11,5 +11,8 @@ class Dummy extends Model
 
     protected $table = 'dummy';
 
-    protected $fillable = ['name'];
+    // protected $fillable = ['name'];
+
+    // inverse of fillable
+    protected $guarded = [];
 }
